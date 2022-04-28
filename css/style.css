@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
 
 /*index*/
+.main-index{
+    height: 70vh;
+}
 .index-titulo{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .h1-index{
     font-family: 'Orbitron', sans-serif; color: black;
 }
 .h2-index{
     font-family: 'Orbitron', sans-serif; color: gray;
+    
+}
+.img-index{
+    margin-top: 50px;
 }
 
 
@@ -18,13 +25,26 @@
 .nosotros{
     text-align: left;
     margin-top: 20px;
+    padding-left: 10px;
+    height: 70vh;
 }
 
 /*productos*/
+.div-productos{
+    text-align: center;
+}
 
 /*preguntas frecuentes*/
-
+.main-pf{
+    height: 70vh;  
+}
 .titulo-pf{
     text-align: left;
     margin-top: 20px;
+    
+}
+/*contacto*/
+.main-contacto{
+    height: 65vh;
+    margin-top: 70px;
 }
