@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+
+/*index*/
+.index-titulo{
+    text-align: center;
+    margin-top: 15px;
+}
+.h1-index{
+    font-family: 'Orbitron', sans-serif; color: black;
+}
+.h2-index{
+    font-family: 'Orbitron', sans-serif; color: gray;
+}
+
+
+/*nosotros*/
+
+.nosotros{
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*productos*/
+
+/*preguntas frecuentes*/
+
+.titulo-pf{
+    text-align: left;
+    margin-top: 20px;
+}

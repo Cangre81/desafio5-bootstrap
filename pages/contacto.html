@@ -12,6 +12,97 @@
     <title>Contacto</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/Apple_logo_black.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    PalermoTECH
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/preguntasfrecuentes.html">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="container bg-light mt-4 mb-4">
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Nombre:" aria-label="Nombre">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido:" aria-label="Apellido">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email:" aria-label="Email">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Teléfono:" aria-label="Telefono">
+                  </div>     
+              </div>
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Productos</option>
+                  <option value="1">Iphone Nuevos</option>
+                  <option value="2">Iphones Usados</option>
+                  <option value="3">Macbook Nuevas</option>
+                  <option value="4">Macbook Usadas</option>
+                  <option value="5">Varios</option>
+                </select>
+                <label for="floatingSelect">Elegir Producto</label>
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comentarios</label>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">ENVIAR</button>
+                </div>
+                
+              </div>
+
+        </div>
+    </main>
+    <!-- Footer -->
+<footer class="bg-secondary text-center text-white">
+    <!-- div container -->
+    <div class="container p-1">
+      <!-- div redes sociales -->
+      <div class="mb-4">
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+          </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © 2022 Copyright PalermoTECH
+    </div>
+  </footer>
     <!--scrip bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
